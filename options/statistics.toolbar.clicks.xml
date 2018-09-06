@@ -1,0 +1,31 @@
+<application>
+  <component name="ToolbarClicksCollector">
+    <counts>
+      <entry action="Android Profiler@NavBarToolbar" count="1" />
+      <entry action="Android.RunAndroidAvdManager@NavBarToolbar" count="14" />
+      <entry action="Android.RunAndroidSdkManager@NavBarToolbar" count="1" />
+      <entry action="Android.SyncProject@NavBarToolbar" count="9" />
+      <entry action="AndroidConnectDebuggerAction@NavBarToolbar" count="3" />
+      <entry action="Debug@NavBarToolbar" count="22" />
+      <entry action="Rerun@DebuggerToolbar" count="2" />
+      <entry action="Resume@DebuggerToolbar" count="62" />
+      <entry action="Run@NavBarToolbar" count="140" />
+      <entry action="Stop@DebuggerToolbar" count="1" />
+      <entry action="Stop@NavBarToolbar" count="2" />
+      <entry action="XDebugger.NewWatch@DebuggerToolbar" count="4" />
+      <entry action="XDebugger.RemoveWatch@DebuggerToolbar" count="1" />
+      <entry action="com.android.tools.idea.configurations.LocaleMenuAction@toolbar" count="1" />
+      <entry action="com.android.tools.idea.configurations.OrientationMenuAction@toolbar" count="1" />
+      <entry action="com.android.tools.idea.logcat.LogcatConsoleActionsPostProcessor$ClearLogCatAction@AndroidLogcatView" count="1" />
+      <entry action="com.android.tools.idea.uibuilder.property.editors.BrowsePanel$BrowseAction@unknown" count="1" />
+      <entry action="com.intellij.diagnostic.IdeErrorsDialog$ForwardAction@IdeErrorsForward" count="5" />
+      <entry action="com.intellij.execution.junit2.ui.actions.RerunFailedTestsAction@DebuggerToolbar" count="1" />
+      <entry action="com.intellij.find.SearchTextArea$ClearAction@unknown" count="3" />
+      <entry action="com.intellij.find.editorHeaderActions.NextOccurrenceAction@EditorToolbar" count="119" />
+      <entry action="com.intellij.find.editorHeaderActions.PrevOccurrenceAction@EditorToolbar" count="6" />
+      <entry action="com.intellij.ide.fileTemplates.impl.AllFileTemplatesConfigurable$6@FileTemplatesConfigurable" count="10" />
+      <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="20" />
+      <entry action="org.jetbrains.plugins.terminal.TerminalView$CloseSession@Terminal" count="3" />
+    </counts>
+  </component>
+</application>

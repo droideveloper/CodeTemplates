@@ -1,0 +1,126 @@
+<templateSet group="Android">
+  <template name="rouiT" value="ThreadManager.runOnUiThread(() -&gt; {&#10;  $cursor$&#10;});" description="runOnUIThread" toReformat="true" toShortenFQNames="true">
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bind" value="private final static String BIND_$name$ = &quot;$cursor$&quot;;" description="Bind KEY" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="bindHolder" value="final $type$ $name$ = getItemAt(position);&#10;if($name$ != null) {&#10;    viewHolder.notifyDataSet($name$);&#10;}&#10;$cursor$" description="onBindViewHolder helper let's you code for simple ones" toReformat="true" toShortenFQNames="true">
+    <variable name="type" expression="typeOfVariable(VAR)" defaultValue="name" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="builder" value="public Builder $VAR$($TYPE$ $VAR$) { this.$VAR$ = $VAR$; return this; }$END$" description="Creates Builder Method" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="typeOfVariable(VAR)" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="subtypes(typeOfVariable(VAR))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="clazzlog" value="protected void log(String msg) {&#10;    log(Log.DEBUG, msg);&#10;}&#10;&#10;protected void log(Throwable exp) {&#10;    StringWriter sw = new StringWriter(128);&#10;    PrintWriter  pw = new PrintWriter(sw);&#10;    exp.printStackTrace(pw);&#10;    log(Log.ERROR, sw.toString());&#10;}&#10;&#10;protected void log(int lv, String msg) {&#10;    if(isLogEnabled()) {&#10;        Log.println(lv, getClassTag(), msg);&#10;    }&#10;}&#10;&#10;protected boolean isLogEnabled() {&#10;    return BuildConfig.DEBUG;&#10;}&#10;&#10;protected String getClassTag() {&#10;    return $class$.class.getSimpleName();$END$&#10;}" description="implements log on class" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="clmName" value="public static final String CLM_$name$ = &quot;$string$&quot;;" description="OrmSQLite Column Name" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="createHolder" value="final LayoutInflater factory = inflaterFactory();&#10;if(factory != null) {&#10;    View view = factory.inflate($resId$, parent, false);&#10;    $cursor$&#10;}&#10;throw new AndroidException(&quot;you can not grab inflater since context is death.&quot;);" description="onCreateViewHolder helper" toReformat="true" toShortenFQNames="true">
+    <variable name="resId" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="prcheck" value="val has$name$ = input?.readInt() == 1;&#10;if(has$name$) {&#10;    $VAR$ = input?.read$TYPE$();$END$&#10;}" description="Safe way of reading parcel with data written or not check" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="capitalize(String)" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="kotlinSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="subtypes(typeOfVariable(VAR))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="propertySETGET" value="@Bindable public $VAR_TYPE$ get$CAPITALIZED_VAR_NAME$() {&#10;  return this.$VAR_NAME$;  &#10;}&#10;&#10;public void set$CAPITALIZED_VAR_NAME$($VAR_TYPE$ $VAR_NAME$) {&#10;  if(this.$VAR_NAME$ != $VAR_NAME$) {&#10;    this.$VAR_NAME$ = $VAR_NAME$;&#10;    notifyPropertyChanged(BR.$VAR_NAME$);&#10;  }&#10;}$END$" description="Android ViewDataBinding property" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="VAR_TYPE" expression="typeOfVariable(VAR_NAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAPITALIZED_VAR_NAME" expression="capitalize(VAR_NAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="propertyGET" value="@Bindable public $VAR_TYPE$ get$CAPITALIZED_VAR_NAME$() {&#10;  return this.$VAR_NAME$;  &#10;}" description="Android ViewDataBinding property" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR_TYPE" expression="typeOfVariable(VAR_NAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAPITALIZED_VAR_NAME" expression="capitalize(VAR_NAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="propertyBuilder" value="public void $VAR$($TYPE$ $VAR$) { this.$VAR$ = $VAR$; }&#10;public $TYPE$ $VAR$() { return this.$VAR$; }$END$" description="Static Builder class property" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="subtypes(typeOfVariable(VAR))" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="typeOfVariable(VAR)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pwcheck" value="out?.writeInt(if($name$ != null) 1 else 0)&#10;$name$?.let {&#10;  out?.write$TYPE$(it)$END$&#10;}&#10;" description="Safe way of writing parcel with data existence check" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="kotlinSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="subtypes(typeOfVariable(VAR))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rouitd" value="ThreadManager.runOnUiThreadDelayed(() -&gt; {&#10;  $END$&#10;}, $delay$)" description="runOnUiThread with delay" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="delay" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="snack" value="Snackbar.make($view$, $message$, Snackbar.LENGTH_LONG)&#10;  .show();&#10;$END$" description="Show snackbar" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="message" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="vfind" value="ViewUtility.findViewById($view$, $viewId$);" description="findViewById default cast" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="viewId" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="viewConsturctors" value="public $class$(android.content.Context context) {&#10;    this(context, null);&#10;}&#10;&#10;public $class$(Context context, android.util.AttributeSet attrs) {&#10;    this(context, attrs, 0);&#10;}&#10;&#10;public $class$(Context context, AttributeSet attrs, int defStyle) {&#10;    super(context, attrs, defStyle);&#10;    $cursor$&#10;}" description="Add Widget Constructors All of them" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="starter" value="public static void start(android.content.Context context) {&#10;    android.content.Intent starter = new Intent(context, $ACTIVITY$.class);&#10;    starter.putExtra($CURSOR$);&#10;    context.startActivity(starter);&#10;}" description="Creates a static start(...) helper method to start an Activity" toReformat="true" toShortenFQNames="true">
+    <variable name="ACTIVITY" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

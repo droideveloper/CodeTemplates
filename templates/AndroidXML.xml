@@ -1,0 +1,169 @@
+<templateSet group="AndroidXML">
+  <template name="agroup" value="&lt;LinearLayout&#10;  android:layout_width=&quot;match_parent&quot;&#10;  android:layout_height=&quot;wrap_content&quot;&#10;  android:orientation=&quot;horizontal&quot;&#10;  android:gravity=&quot;center_vertical|end&quot;&gt;&#10;  &#10;  &lt;Button&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot;&#10;    android:text=&quot;@android:string/ok&quot;&#10;    android:theme=&quot;@style/Widget.AppCompat.Button.Colored&quot; /&gt;&#10;    &#10;  &lt;Button&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot;&#10;    android:text=&quot;@android:string/cancel&quot;&#10;    android:theme=&quot;@style/Widget.AppCompat.Button.Colored&quot; /&gt;&#10;  &#10;&lt;/LinearLayout&gt;  " description="Button Action Group" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="ibindings" value="xmlns:bindings=&quot;http://schemas.android.com/apk/res-auto&quot;" description="Add Bindings Namespace" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="isupport" value="xmlns:support=&quot;http://schemas.android.com/apk/res-auto&quot;" description="Add Support Namespace" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="itools" value="xmlns:tools=&quot;http://schemas.android.com/tools&quot;" description="adds tools namespace to Android xml file" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="rgroup" value="&lt;RadioGroup&#10; android:layout_width=&quot;match_parent&quot; &#10; android:layout_height=&quot;wrap_content&quot;&gt;&#10;  &#10;  $cursor$&#10;&#10;&lt;/RadioGroup&gt;" description="RadioButton action group" toReformat="true" toShortenFQNames="true">
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="samenuitem" value="&lt;item&#10;  xmlns:support=&quot;http://schemas.android.com/apk/res-auto&quot;&#10;  android:id=&quot;@+id/$id$&quot;&#10;  android:title=&quot;@string/$title$&quot;&#10;  android:icon=&quot;@drawable/$icon$&quot;&#10;  support:showAsAction=&quot;ifRoom&quot;/&gt;" description="menu item for action bar" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="icon" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="sbehavior" value="xmlns:support=&quot;http://schemas.android.com/apk/res-auto&quot;&#10;support:layout_behavior=&quot;@string/appbar_scrolling_view_behavior&quot;&#10;" description="adds view scrooling behavior" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="sbutton" value="&lt;Button&#10;  android:layout_width=&quot;wrap_content&quot;&#10;  android:layout_height=&quot;wrap_content&quot;&#10;  android:theme=&quot;@style/Widget.AppCompat.Button&quot; /&gt;" description="support button with AppCompat theme" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="scheck" value="&lt;CheckBox&#10;  android:layout_width=&quot;wrap_content&quot; &#10;  android:layout_height=&quot;wrap_content&quot;&#10;  android:theme=&quot;@style/Widget.AppCompat.CompoundButton.CheckBox&quot;  /&gt;" description="support check with AppCompat theme" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="scoord" value="&lt;android.support.design.widget.CoordinatorLayout&#10;    xmlns:support=&quot;http://schemas.android.com/apk/res-auto&quot;&#10;    android:layout_width=&quot;match_parent&quot;&#10;    android:layout_height=&quot;match_parent&quot;&#10;    android:fitsSystemWindows=&quot;true&quot;&gt;&#10;&#10;  &lt;android.support.design.widget.AppBarLayout&#10;      android:layout_width=&quot;match_parent&quot;&#10;      android:layout_height=&quot;@dimen/app_bar_height&quot;&gt;&#10;&#10;      &lt;android.support.design.widget.CollapsingToolbarLayout&#10;        android:layout_width=&quot;match_parent&quot;&#10;        android:layout_height=&quot;match_parent&quot;&#10;        android:theme=&quot;@style/ThemeOverlay.AppCompat.Light&quot;&#10;        support:titleEnabled=&quot;false&quot;&#10;        support:contentScrim=&quot;?attr/colorPrimary&quot;&#10;        support:layout_scrollFlags=&quot;scroll|exitUntilCollapsed&quot;&gt;&#10;&#10;        &lt;android.support.v7.widget.Toolbar&#10;          android:layout_width=&quot;match_parent&quot;&#10;          android:layout_height=&quot;?android:attr/actionBarSize&quot;&#10;          android:theme=&quot;@style/ThemeOverlay.AppCompat.Light&quot;&#10;          support:layout_collapseMode=&quot;pin&quot; /&gt;&#10;&#10;        &lt;!-- this is colapsable view with property supported in colapse via scrolling&#10;        &lt;TextView&#10;          android:layout_width=&quot;wrap_content&quot;&#10;          android:layout_height=&quot;wrap_content&quot;&#10;          support:layout_collapseMode=&quot;parallax&quot;  /&gt;&#10;        --&gt;&#10;        &#10;      &lt;/android.support.design.widget.CollapsingToolbarLayout&gt;&#10;&#10;  &lt;/android.support.design.widget.AppBarLayout&gt;&#10;&#10;&lt;!-- here requires content view&#10;  &lt;FrameLayout&#10;    android:layout_width=&quot;match_parent&quot;&#10;    android:layout_height=&quot;match_parent&quot; &#10;    support:layout_behavior=&quot;@string/appbar_scrolling_view_behavior&quot; /&gt;&#10;--&gt;    &#10;&#10;&lt;!-- support:layout_anchor=&quot;@andorid:id/content&quot; &#10;  &lt;android.support.design.widget.FloatingActionButton&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot; &#10;    android:layout_margin=&quot;16dp&quot;&#10;    support:layout_anchorGravity=&quot;bottom|start&quot; /&gt;&#10;--&gt;&#10;&lt;/android.support.design.widget.CoordinatorLayout&gt;" description="adds coordinator layout" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="sdrawer" value="&lt;android.support.v4.widget.DrawerLayout&#10;    android:layout_width=&quot;match_parent&quot;&#10;    android:layout_height=&quot;match_parent&quot;&gt;&#10;&#10;  &lt;FrameLayout&#10;      android:id=&quot;@+id/container&quot;&#10;      android:layout_width=&quot;match_parent&quot;&#10;      android:layout_height=&quot;match_parent&quot; /&gt;&#10;&#10;  &lt;android.support.design.internal.NavigationMenuView&#10;      android:layout_gravity=&quot;start&quot;&#10;      android:layout_width=&quot;match_parent&quot;&#10;      android:layout_height=&quot;match_parent&quot; /&gt;&#10;&#10;&lt;/android.support.v4.widget.DrawerLayout&gt;" description="Android Support V4 drawer with FrameLayout and NavigationMenuView" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shspace" value="&lt;android.support.v4.widget.Space&#10;  android:layout_width=&quot;$width$&quot;&#10;  android:layout_height=&quot;match_parent&quot; /&gt;" description="support space with v4 library" toReformat="true" toShortenFQNames="true">
+    <variable name="width" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="smactivity" value="&lt;android.support.v4.widget.DrawerLayout&#10;  android:layout_width=&quot;match_parent&quot;&#10;  android:layout_height=&quot;match_parent&quot;&#10;  &#10;  &lt;LinearLayout&#10;    android:orientation=&quot;vertical&quot;&#10;    android:fitsSystemWindows=&quot;true&quot;&#10;    android:layout_width=&quot;match_parent&quot;&#10;    android:layout_height=&quot;match_parent&quot;&gt;&#10;&#10;    &lt;android.support.v7.widget.Toolbar&#10;      android:theme=&quot;@style/ThemeOverlay.AppCompat.Light&quot;&#10;      android:layout_width=&quot;match_parent&quot;&#10;      android:minHeight=&quot;?android:attr/actionBarSize&quot;&#10;      android:background=&quot;?attr/colorPrimary&quot;&#10;      android:layout_height=&quot;wrap_content&quot; /&gt;&#10;&#10;    &lt;FrameLayout&#10;      android:layout_width=&quot;match_parent&quot;&#10;      android:layout_height=&quot;match_parent&quot; /&gt;&#10;&#10;  &lt;/LinearLayout&gt;&#10;&#10;  &lt;android.support.design.widget.NavigationView&#10;    xmlns:support=&quot;http://schemas.android.com/apk/res-auto&quot;&#10;    android:layout_height=&quot;match_parent&quot;&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_gravity=&quot;start&quot;&#10;    android:background=&quot;$backgroundColor$&quot;&#10;    support:headerLayout=&quot;$header$&quot;&#10;    support:itemTextColor=&quot;$tint$&quot;&#10;    support:itemIconTint=&quot;$tint$&quot;&#10;    support:menu=&quot;@menu/navigation&quot; /&gt;&#10;&#10;&lt;/android.support.v4.widget.DrawerLayout&gt;" description="activity main with drawer layout and navigation view" toReformat="true" toShortenFQNames="true">
+    <variable name="backgroundColor" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="header" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="tint" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="smenu" value="&lt;group&#10;  android:checkableBehavior=&quot;single&quot;&gt;&#10;  &#10;  $cursor$&#10;  &#10;&lt;/group&gt;" description="navigation menu items" toReformat="true" toShortenFQNames="true">
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="smenuitem" value="&lt;item&#10;  android:id=&quot;@+id/$id$&quot;&#10;  android:title=&quot;@string/$title$&quot;&#10;  android:icon=&quot;@drawable/$icon$&quot; /&gt;" description="navigation menu item" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="icon" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="sprogress" value="&lt;ProgressBar&#10;  android:layout_width=&quot;wrap_content&quot; &#10;  android:layout_height=&quot;wrap_content&quot;&#10;  android:theme=&quot;@style/Widget.AppCompat.ProgressBar&quot; /&gt;" description="support progressbar with AppCompat theme" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="sradio" value="&lt;RadioButton&#10;  android:layout_width=&quot;wrap_content&quot;&#10;  android:layout_height=&quot;wrap_content&quot;&#10;  android:text=&quot;@string/$string_id$&quot;&#10;  android:theme=&quot;@style/Widget.AppCompat.CompoundButton.RadioButton&quot; /&gt;" description="support radio with AppCompat theme" toReformat="true" toShortenFQNames="true">
+    <variable name="string_id" expression="" defaultValue="app_name" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="srecycler" value="&lt;android.support.v7.widget.RecyclerView&#10;  android:scrollbars=&quot;vertical&quot;&#10;  android:scrollbarStyle=&quot;insideOverlay&quot;&#10;  android:layout_width=&quot;match_parent&quot;&#10;  android:layout_height=&quot;wrap_content&quot; /&gt;" description="adds recycler view" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="sseek" value="&lt;SeekBar&#10;  android:layout_width=&quot;match_parent&quot; &#10;  android:layout_height=&quot;wrap_content&quot;&#10;  android:theme=&quot;@style/Widget.AppCompat.SeekBar&quot; /&gt;" description="support seekbar with AppCompat theme" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="sswitch" value="&lt;android.support.v7.widget.SwitchCompat&#10;  android:layout_width=&quot;wrap_content&quot; &#10;  android:layout_height=&quot;wrap_content&quot;&#10;  android:theme=&quot;@style/Widget.AppCompat.CompoundButton.Switch&quot; /&gt;" description="support swith with AppCompat theme" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="stextinput" value="&lt;android.support.design.widget.TextInputLayout&#10;  android:layout_width=&quot;match_parent&quot;&#10;  android:layout_height=&quot;wrap_content&quot;&gt;&#10;&#10;  &lt;android.support.design.widget.TextInputEditText&#10;    android:inputType=&quot;$inputType$&quot;&#10;    android:imeOptions=&quot;$actionType$&quot;&#10;    android:layout_width=&quot;match_parent&quot;&#10;    android:layout_height=&quot;wrap_content&quot;/&gt;&#10;&#10;&lt;/android.support.design.widget.TextInputLayout&gt;" description="adds support design library for android" toReformat="true" toShortenFQNames="true">
+    <variable name="inputType" expression="" defaultValue="text" alwaysStopAt="true" />
+    <variable name="actionType" expression="" defaultValue="actionDone" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="stool" value="&lt;android.support.v7.widget.Toolbar&#10;  android:theme=&quot;@style/ThemeOverlay.AppCompat.Light&quot;&#10;  android:minHeight=&quot;?android:attr/actionBarSize&quot;&#10;  android:background=&quot;?attr/colorPrimary&quot;&#10;  android:layout_width=&quot;match_parent&quot;&#10;  android:layout_height=&quot;wrap_content&quot; /&gt;" description="adds support ToolBar view with Compat Theme" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="svspace" value="&lt;android.support.v4.widget.Space&#10;  android:layout_width=&quot;match_parent&quot;&#10;  android:layout_height=&quot;$height$&quot; /&gt;" description="support space with v4 library" toReformat="true" toShortenFQNames="true">
+    <variable name="height" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="lww" value="android:layout_width=&quot;wrap_content&quot;" description="android:layout_width=&quot;wrap_content&quot;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="lw" value="android:layout_width=&quot;$width$&quot;" description="android:layout_width=&quot;&quot;" toReformat="true" toShortenFQNames="true">
+    <variable name="width" expression="" defaultValue="wrap_content" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="lwm" value="android:layout_width=&quot;match_parent&quot;" description="android:layout_width=&quot;match_parent&quot;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="lhw" value="android:layout_height=&quot;wrap_content&quot;" description="android:layout_height=&quot;wrap_content&quot;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="lhm" value="android:layout_height=&quot;match_parent&quot;" description="android:layout_height=&quot;match_parent&quot;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="lh" value="android:layout_height=&quot;$height$&quot;" description="android:layout_height=&quot;&quot;" toReformat="true" toShortenFQNames="true">
+    <variable name="height" expression="" defaultValue="wrap_content" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="support" value="xmlns:support=&quot;http://schemas.android.com/apk/res-auto&quot;" description="adds application namespace" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="tools" value="xmlns:tools=&quot;http://schemas.android.com/tools&quot;" description="adds tools namespace to Android xml file" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="sconst" value="&lt;android.support.constraint.ConstraintLayout&#10;  xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&#10;  xmlns:support=&quot;http://schemas.android.com/apk/res-auto&quot;&#10;  android:layout_width=&quot;match_parent&quot;&#10;  android:layout_height=&quot;match_parent&quot;&gt;&#10;  &#10;  $cursor$&#10;  &#10;&lt;/android.support.constraint.ConstraintLayout&gt;  " description="Constraint Layout with fit screen" toReformat="false" toShortenFQNames="true">
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

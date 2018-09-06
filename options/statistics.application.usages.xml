@@ -1,0 +1,134 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="run-configuration-type">
+      <project id="GithubGoodiesApplication" values="AndroidRunConfigurationType" collectionTime="1535456340591" />
+      <project id="android" values="AndroidRunConfigurationType" collectionTime="1536221867164" />
+      <project id="MyApplication" values="AndroidRunConfigurationType" collectionTime="1536219594283" />
+      <project id="RoomApplication" values="AndroidRunConfigurationType" collectionTime="1535725543668" />
+      <project id="MVITODO" values="AndroidRunConfigurationType" collectionTime="1536219585179" />
+    </group>
+    <group name="module type">
+      <project id="GithubGoodiesApplication" values="JAVA_MODULE" collectionTime="1535456340591" />
+      <project id="android" values="JAVA_MODULE" collectionTime="1536221867163" />
+      <project id="MyApplication" values="JAVA_MODULE" collectionTime="1536219594283" />
+      <project id="RoomApplication" values="JAVA_MODULE" collectionTime="1535725543666" />
+      <project id="MVITODO" values="JAVA_MODULE" collectionTime="1536219585148" />
+      <project id="MVVMAndroidKotlin" values="JAVA_MODULE" collectionTime="1536219589473" />
+    </group>
+    <group name="vcs">
+      <project id="GithubGoodiesApplication" values="Git" collectionTime="1535456340590" />
+      <project id="MVITODO" values="Git" collectionTime="1536219585145" />
+      <project id="android" values="Git" collectionTime="1536221867163" />
+      <project id="MVVMAndroidKotlin" values="Git" collectionTime="1536219589473" />
+    </group>
+    <group name="VCS Log 2">
+      <project id="MVITODO" values="data.git.root.count.1,data.users.count.1+,data.commit.count.1+,data.branches.count.1+" collectionTime="1536219585316" />
+    </group>
+    <group name="file-type">
+      <project id="GithubGoodiesApplication" values="ProGuard File,Groovy,Kotlin,Font,ARCHIVE,Images,Properties,XML,IDEA_MODULE,JAVA,PLAIN_TEXT" collectionTime="1535456340650" />
+      <project id="android" values="ARCHIVE,UNKNOWN,Images,IDEA_MODULE,JAVA,Groovy,JSON,Properties,Font,ProGuard File,PLAIN_TEXT,Kotlin,XML" collectionTime="1536221867218" />
+      <project id="MyApplication" values="JAVA,Kotlin,Groovy,ARCHIVE,Images,Properties,PLAIN_TEXT,XML,IDEA_MODULE,ProGuard File" collectionTime="1536219594338" />
+      <project id="RoomApplication" values="IDEA_MODULE,ProGuard File,Properties,Groovy,JAVA,ARCHIVE,Images,PLAIN_TEXT,Kotlin,XML" collectionTime="1535725543730" />
+      <project id="MVITODO" values="ARCHIVE,XML,JAVA,IDEA_MODULE,ProGuard File,PLAIN_TEXT,Properties,Kotlin,UNKNOWN,Groovy" collectionTime="1536219585297" />
+      <project id="MVVMAndroidKotlin" values="JAVA,Properties,IDEA_MODULE,ARCHIVE,ProGuard File,Kotlin,PLAIN_TEXT,UNKNOWN,Groovy,XML" collectionTime="1536219589514" />
+    </group>
+    <group name="Run Dashboard">
+      <project id="GithubGoodiesApplication" values="run.dashboard.disabled" collectionTime="1535456340650" />
+      <project id="android" values="run.dashboard.disabled" collectionTime="1536221867218" />
+      <project id="MyApplication" values="run.dashboard.disabled" collectionTime="1536219594338" />
+      <project id="RoomApplication" values="run.dashboard.disabled" collectionTime="1535725543736" />
+      <project id="MVITODO" values="run.dashboard.disabled" collectionTime="1536219585302" />
+      <project id="MVVMAndroidKotlin" values="run.dashboard.disabled" collectionTime="1536219589514" />
+    </group>
+    <group name="kotlin.formatter">
+      <project id="GithubGoodiesApplication" values="kotlin.formatter.defaults.null,kotlin.formatter.kind.idea_custom" collectionTime="1535456340653" />
+      <project id="android" values="kotlin.formatter.kind.idea_custom,kotlin.formatter.defaults.null" collectionTime="1536221867225" />
+      <project id="MyApplication" values="kotlin.formatter.kind.idea_custom,kotlin.formatter.defaults.null" collectionTime="1536219594342" />
+      <project id="RoomApplication" values="kotlin.formatter.defaults.null,kotlin.formatter.kind.idea_custom" collectionTime="1535725543882" />
+      <project id="MVITODO" values="kotlin.formatter.kind.idea_custom,kotlin.formatter.defaults.null" collectionTime="1536219585453" />
+      <project id="MVVMAndroidKotlin" values="kotlin.formatter.kind.idea_custom,kotlin.formatter.defaults.null" collectionTime="1536219589528" />
+    </group>
+    <group name="module-language-level">
+      <project id="GithubGoodiesApplication" values="JDK_1_8" collectionTime="1535456340652" />
+      <project id="android" values="JDK_1_8" collectionTime="1536221867223" />
+      <project id="MyApplication" values="JDK_1_7" collectionTime="1536219594341" />
+      <project id="RoomApplication" values="JDK_1_8" collectionTime="1535725543755" />
+      <project id="MVITODO" values="JDK_1_8" collectionTime="1536219585318" />
+      <project id="MVVMAndroidKotlin" values="JDK_1_7" collectionTime="1536219589527" />
+    </group>
+    <group name="Editor">
+      <project id="android" values="autoOptimizeImports" collectionTime="1536221867218" />
+    </group>
+    <group name="frameworks">
+      <project id="GithubGoodiesApplication" values="android,kotlin-language,android-gradle,java-gradle" collectionTime="1535456340591" />
+      <project id="android" values="android-gradle,java-gradle,kotlin-language,android" collectionTime="1536221867163" />
+      <project id="MyApplication" values="java-gradle,kotlin-language,android-gradle,android" collectionTime="1536219594283" />
+      <project id="RoomApplication" values="android-gradle,kotlin-language,android,java-gradle" collectionTime="1535725543666" />
+      <project id="MVITODO" values="kotlin-language,android-gradle,java-gradle,android" collectionTime="1536219585148" />
+      <project id="MVVMAndroidKotlin" values="java-gradle,android-gradle,kotlin-language,android" collectionTime="1536219589473" />
+    </group>
+    <group name="vcs-stats">
+      <project id="GithubGoodiesApplication" values="active.changelists.count.1,unversioned.files.count.0,ignored.files.count.1,vcs.roots.count.1,has.default.vcs.root.mapping.disabled" collectionTime="1535456340591" />
+      <project id="android" values="active.changelists.count.1,unversioned.files.count.0,has.default.vcs.root.mapping.disabled,ignored.files.count.1,vcs.roots.count.1" collectionTime="1536221867163" />
+      <project id="MyApplication" values="vcs.roots.count.0,has.default.vcs.root.mapping.enabled,active.changelists.count.1,ignored.files.count.0,unversioned.files.count.0" collectionTime="1536219594283" />
+      <project id="RoomApplication" values="has.default.vcs.root.mapping.enabled,vcs.roots.count.0,unversioned.files.count.0,ignored.files.count.0,active.changelists.count.1" collectionTime="1535725543666" />
+      <project id="MVITODO" values="active.changelists.count.1,has.default.vcs.root.mapping.disabled,unversioned.files.count.0,ignored.files.count.1,vcs.roots.count.1" collectionTime="1536219585147" />
+      <project id="MVVMAndroidKotlin" values="unversioned.files.count.1,ignored.files.count.1,active.changelists.count.1,vcs.roots.count.1,has.default.vcs.root.mapping.disabled" collectionTime="1536219589473" />
+    </group>
+    <group name="Git">
+      <project id="GithubGoodiesApplication" values="config.warn.about.crlf.enabled,config.ssh.enabled,data.remotes.in.project.1,config.force.push.enabled,version.2.15.2-UNIX,data.remote.servers.github.com.1,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,data.local.branches.count.1,config.repo.sync.NOT_DECIDED,data.remote.branches.count.1,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled" collectionTime="1535456340652" />
+      <project id="android" values="config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,data.remote.servers.github.com.1,config.push.autoupdate.disabled,version.2.15.2-UNIX,config.warn.about.crlf.enabled,data.remote.branches.count.30+,data.remotes.in.project.1,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,data.local.branches.count.2+" collectionTime="1536221867223" />
+      <project id="MyApplication" values="config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.ssh.enabled,config.save.policy.STASH,version.0.0.0-NULL,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled" collectionTime="1536219594341" />
+      <project id="RoomApplication" values="config.warn.about.crlf.enabled,config.force.push.enabled,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.repo.sync.NOT_DECIDED,version.0.0.0-NULL,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled" collectionTime="1535725543755" />
+      <project id="MVITODO" values="data.remote.servers.github.com.1,config.save.policy.STASH,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.force.push.enabled,data.remote.branches.count.1,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,data.local.branches.count.1,config.ssh.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,version.2.15.2-UNIX,data.remotes.in.project.1" collectionTime="1536219585319" />
+      <project id="MVVMAndroidKotlin" values="data.remote.branches.count.1,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,data.remote.servers.github.com.1,data.remotes.in.project.1,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,version.2.15.2-UNIX,config.ssh.enabled,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,data.local.branches.count.1" collectionTime="1536219589527" />
+    </group>
+    <group name="libraries">
+      <project id="GithubGoodiesApplication" values="kotlin-java-runtime" collectionTime="1535456340650" />
+      <project id="android" values="kotlin-java-runtime" collectionTime="1536221867221" />
+      <project id="MyApplication" values="kotlin-java-runtime" collectionTime="1536219594339" />
+      <project id="RoomApplication" values="kotlin-java-runtime" collectionTime="1535725543750" />
+      <project id="MVITODO" values="kotlin-java-runtime" collectionTime="1536219585314" />
+      <project id="MVVMAndroidKotlin" values="kotlin-java-runtime" collectionTime="1536219589515" />
+    </group>
+    <group name="vcs-options">
+      <project id="GithubGoodiesApplication" values="offer.remove.empty.changelist.show_confirmation,offer.move.partially.committed.disabled,commit.before.check.code.cleanup.disabled,commit.before.check.todo.enabled,commit.before.check.non.empty.comment.disabled,perform.edit.in.background.enabled,check.conflicts.in.background.disabled,commit.before.check.code.smell.enabled,commit.before.reformat.project.disabled,commit.show.unversioned.enabled,changelist.preselect.existing.disabled,commit.clear.initial.comment.disabled,commit.use.right.margin.enabled,perform.rollback.in.background.disabled,perform.commit.in.background.enabled,perform.checkout.in.background.enabled,commit.before.optimize.imports.disabled,show.changes.preview.disabled,changelist.make.new.active.disabled,commit.before.rearrange.disabled,perform.update.in.background.enabled,perform.add_remove.in.background.enabled,offer.move.failed.committed.do_nothing_silently,include.text.into.shelf.enabled" collectionTime="1535456340590" />
+      <project id="android" values="changelist.make.new.active.disabled,perform.edit.in.background.enabled,commit.before.check.non.empty.comment.disabled,perform.add_remove.in.background.enabled,commit.before.check.code.cleanup.disabled,include.text.into.shelf.enabled,check.conflicts.in.background.disabled,offer.move.failed.committed.do_nothing_silently,commit.before.optimize.imports.disabled,perform.checkout.in.background.enabled,commit.before.check.todo.enabled,commit.before.reformat.project.disabled,commit.use.right.margin.enabled,show.changes.preview.disabled,commit.show.unversioned.enabled,perform.update.in.background.enabled,perform.rollback.in.background.disabled,commit.clear.initial.comment.disabled,commit.before.check.code.smell.enabled,commit.before.rearrange.disabled,changelist.preselect.existing.disabled,offer.move.partially.committed.disabled,offer.remove.empty.changelist.show_confirmation,perform.commit.in.background.enabled" collectionTime="1536221867163" />
+      <project id="MyApplication" values="offer.remove.empty.changelist.show_confirmation,perform.edit.in.background.enabled,commit.use.right.margin.enabled,show.changes.preview.disabled,commit.before.optimize.imports.disabled,commit.clear.initial.comment.disabled,commit.show.unversioned.enabled,offer.move.partially.committed.disabled,changelist.make.new.active.disabled,commit.before.check.code.smell.enabled,commit.before.check.todo.enabled,include.text.into.shelf.enabled,commit.before.check.code.cleanup.disabled,commit.before.rearrange.disabled,offer.move.failed.committed.do_nothing_silently,perform.add_remove.in.background.enabled,perform.commit.in.background.enabled,perform.rollback.in.background.disabled,perform.update.in.background.enabled,check.conflicts.in.background.disabled,changelist.preselect.existing.disabled,commit.before.reformat.project.disabled,perform.checkout.in.background.enabled,commit.before.check.non.empty.comment.disabled" collectionTime="1536219594283" />
+      <project id="RoomApplication" values="commit.before.check.todo.enabled,commit.before.rearrange.disabled,commit.before.check.code.cleanup.disabled,show.changes.preview.disabled,perform.update.in.background.enabled,changelist.preselect.existing.disabled,commit.before.reformat.project.disabled,commit.use.right.margin.enabled,changelist.make.new.active.disabled,offer.remove.empty.changelist.show_confirmation,include.text.into.shelf.enabled,perform.checkout.in.background.enabled,perform.commit.in.background.enabled,perform.edit.in.background.enabled,perform.add_remove.in.background.enabled,offer.move.failed.committed.do_nothing_silently,commit.before.check.non.empty.comment.disabled,commit.before.check.code.smell.enabled,perform.rollback.in.background.disabled,commit.clear.initial.comment.disabled,commit.show.unversioned.enabled,commit.before.optimize.imports.disabled,check.conflicts.in.background.disabled,offer.move.partially.committed.disabled" collectionTime="1535725543665" />
+      <project id="MVITODO" values="perform.checkout.in.background.enabled,check.conflicts.in.background.disabled,show.changes.preview.disabled,include.text.into.shelf.enabled,perform.rollback.in.background.disabled,commit.before.check.code.cleanup.disabled,perform.edit.in.background.enabled,commit.before.check.code.smell.enabled,perform.add_remove.in.background.enabled,offer.move.partially.committed.disabled,commit.before.check.non.empty.comment.disabled,commit.before.optimize.imports.disabled,commit.before.reformat.project.disabled,offer.move.failed.committed.do_nothing_silently,changelist.preselect.existing.disabled,commit.show.unversioned.enabled,offer.remove.empty.changelist.show_confirmation,commit.before.rearrange.disabled,commit.before.check.todo.enabled,changelist.make.new.active.disabled,perform.commit.in.background.enabled,perform.update.in.background.enabled,commit.clear.initial.comment.disabled,commit.use.right.margin.enabled" collectionTime="1536219585146" />
+      <project id="MVVMAndroidKotlin" values="offer.move.failed.committed.do_nothing_silently,perform.update.in.background.enabled,commit.before.reformat.project.disabled,commit.before.check.code.cleanup.disabled,commit.clear.initial.comment.disabled,changelist.preselect.existing.disabled,perform.rollback.in.background.disabled,commit.show.unversioned.enabled,commit.before.check.code.smell.enabled,commit.before.check.non.empty.comment.disabled,commit.before.rearrange.disabled,commit.use.right.margin.enabled,check.conflicts.in.background.disabled,offer.remove.empty.changelist.show_confirmation,commit.before.optimize.imports.disabled,changelist.make.new.active.disabled,perform.checkout.in.background.enabled,perform.edit.in.background.enabled,include.text.into.shelf.enabled,perform.add_remove.in.background.enabled,offer.move.partially.committed.disabled,commit.before.check.todo.enabled,show.changes.preview.disabled,perform.commit.in.background.enabled" collectionTime="1536219589473" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="2" />
+      <entry feature="StripeButton[Android Profiler].hidden" count="21" />
+      <entry feature="StripeButton[Android Profiler].shown" count="11" />
+      <entry feature="StripeButton[Version Control].shown" count="6" />
+      <entry feature="execute.AndroidJUnit.Coverage" count="1" />
+      <entry feature="execute.AndroidJUnit.Debug" count="9" />
+      <entry feature="execute.AndroidJUnit.Run" count="2" />
+      <entry feature="execute.AndroidRunConfigurationType.Android Profiler" count="1" />
+      <entry feature="execute.AndroidRunConfigurationType.Debug" count="18" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="139" />
+      <entry feature="execute.Remote.Debug" count="2" />
+      <entry feature="ide.settings.Android SDK" count="5" />
+      <entry feature="ide.settings.Auto Import" count="4" />
+      <entry feature="ide.settings.Code Style" count="1" />
+      <entry feature="ide.settings.File and Code Templates" count="16" />
+      <entry feature="ide.settings.Live Templates" count="2" />
+      <entry feature="ide.settings.Version Control" count="1" />
+      <entry feature="idea.caches.invalidated" count="3" />
+      <entry feature="ideaapp.started" count="43" />
+      <entry feature="project.view.pane.AndroidView" count="4" />
+      <entry feature="project.view.pane.ProjectPane" count="15" />
+      <entry feature="project.view.pane.Scratches" count="1" />
+      <entry feature="terminal.mac" count="72" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="5" />
+      <entry feature="welcome.screen.WelcomeScreen.RunAndroidSdkManager" count="2" />
+    </counts>
+  </component>
+</application>

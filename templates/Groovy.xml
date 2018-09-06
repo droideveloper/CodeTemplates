@@ -1,0 +1,38 @@
+<templateSet group="Groovy">
+  <template name="butterknifed" value="apt 'com.jakewharton:butterknife-compiler:8.5.1'&#10;compile 'com.jakewharton:butterknife:8.5.1'" description="ButterKnife Dependency For Android Project build.gradle" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="dagger2d" value="apt 'com.google.dagger:dagger-compiler:2.9'&#10;compile 'com.google.dagger:dagger:2.9'&#10;provided 'javax.annotation:jsr250-api:1.0'" description="Dagger2 Dependency For Android Project build.gradle" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="jdk1.7" value="lintOptions {&#10;  abortOnError false&#10;}&#10;&#10;compileOptions {&#10;  sourceCompatibility JavaVersion.VERSION_1_7&#10;  targetCompatibility JavaVersion.VERSION_1_7&#10;}" description="Compile Options With Java 1.7" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="jdk1.8" value="lintOptions {&#10;  abortOnError false&#10;}&#10;&#10;compileOptions {&#10;  sourceCompatibility JavaVersion.VERSION_1_8&#10;  targetCompatibility JavaVersion.VERSION_1_8&#10;}" description="Compile Options With Java 1.8" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="lamda" value="apply plugin: 'com.neenbedankt.android-apt'&#10;apply plugin: 'me.tatarka.retrolambda'" description="Lamda Enabled for Java 1.8 Plugin" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="lamdaw" value="classpath 'me.tatarka:gradle-retrolambda:3.5.0'&#10;classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'" description="Lamda Enabled for Java 1.8 for classpath in workspace build.gradle file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="locd" value="compile project(':$PROJECT_NAME$')" description="Local Project Dependency" toReformat="false" toShortenFQNames="true">
+    <variable name="PROJECT_NAME" expression="lowercaseAndDash(String)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+</templateSet>

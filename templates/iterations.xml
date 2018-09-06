@@ -1,0 +1,10 @@
+<templateSet group="iterations">
+  <template name="forl" value="for(int i = 0, z = $COLLECTION$.size(); i &lt; z; i++) {&#10;    $ITEM_TYPE$ item = $COLLECTION$.get(i);&#10;    $END$&#10;}" description="Create iteration loop, lazy size intialization" toReformat="true" toShortenFQNames="true">
+    <variable name="COLLECTION" expression="typeOfVariable(&quot;java.util.Collection&quot;)" defaultValue="&quot;collection&quot;" alwaysStopAt="true" />
+    <variable name="ITEM_TYPE" expression="guessElementType(COLLECTION)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
