@@ -1,5 +1,5 @@
 #parse("File Package Header.java")
-#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME} #end
 
 class ${NAME}Adapter @Inject constructor(dataSet: ObservableList<${ENTITY}>): AbstractRecyclerViewAdapter<${ENTITY}, ${VIEW_HOLDER}>(dataSet) {
 

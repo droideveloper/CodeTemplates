@@ -2,11 +2,11 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/Documents/Android_Workspaces/android" />
         <option value="$USER_HOME$/Documents/Android_Workspaces/MVITODO" />
         <option value="$USER_HOME$/Documents/Android_Workspaces/MVVMAndroidKotlin" />
         <option value="$USER_HOME$/Downloads/MVVMToDoApp-master" />
         <option value="$USER_HOME$/Documents/Android_Workspaces/MyApplication" />
-        <option value="$USER_HOME$/Documents/Android_Workspaces/android" />
         <option value="$USER_HOME$/Documents/Android_Workspaces/RoomApplication" />
       </list>
     </option>
@@ -14,9 +14,10 @@
       <list>
         <option value="$USER_HOME$/Documents/Android_Workspaces/MVVMAndroidKotlin" />
         <option value="$USER_HOME$/Documents/Android_Workspaces/MVITODO" />
+        <option value="$USER_HOME$/Documents/Android_Workspaces/android" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Documents/Android_Workspaces/MVITODO" />
+    <option name="lastPath" value="$USER_HOME$/Documents/Android_Workspaces/android" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -48,7 +49,7 @@
               <option name="build" value="AI-173.4907809" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1536320571421" />
+              <option name="projectOpenTimestamp" value="1536324805492" />
               <option name="buildTimestamp" value="1532380492889" />
             </RecentProjectMetaInfo>
           </value>
@@ -59,7 +60,7 @@
               <option name="build" value="AI-173.4907809" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1536320571421" />
+              <option name="projectOpenTimestamp" value="1536324805492" />
               <option name="buildTimestamp" value="1532380492889" />
             </RecentProjectMetaInfo>
           </value>
@@ -92,8 +93,8 @@
               <option name="build" value="AI-173.4907809" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1536227113186" />
-              <option name="buildTimestamp" value="1532380476829" />
+              <option name="projectOpenTimestamp" value="1536324805492" />
+              <option name="buildTimestamp" value="1532380492889" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
