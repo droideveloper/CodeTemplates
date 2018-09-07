@@ -7,10 +7,10 @@
     <property name="Default.savedEditorTheme" value="_@user_Default" />
     <property name="newly.installed.api.level" value="28" />
     <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
-    <property name="lastTip" value="42" />
+    <property name="lastTip" value="43" />
     <property name="build.toolwindow.Build.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="android-component-compatibility-check" value="1535958913924" />
-    <property name="file.gist.reindex.count" value="6840" />
+    <property name="file.gist.reindex.count" value="7105" />
     <property name="ExpandRunDashboardTypesPanel" value="false" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.LEFT" value="true" />
@@ -42,8 +42,8 @@
     <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.LEFT.UNSCALED.WIDTH" value="225" />
     <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.RIGHT.UNSCALED.WIDTH" value="251" />
     <property name="SearchEveryWhereHistory" value="keys" />
-    <property name="FileTemplates.SelectedTemplate" value="xml_defs" />
-    <property name="kotlin.lastUpdateCheck" value="1536150962582" />
+    <property name="FileTemplates.SelectedTemplate" value="Kotlin_MVI_ViewModel" />
+    <property name="kotlin.lastUpdateCheck" value="1536311118207" />
     <property name="fileTypeChangedCounter" value="1" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -56,6 +56,5 @@
     <property name="build.toolwindow.run.selection.state" value="consoleView" />
     <property name="last.imported.location" value="$USER_HOME$/Documents/Android_Workspaces/MVVMAndroidKotlin" />
     <property name="Copy.OpenInEditor" value="true" />
-    <property name="FileTemplates.CurrentTab" value="Includes" />
   </component>
 </application>

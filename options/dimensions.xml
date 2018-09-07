@@ -27,7 +27,7 @@
     <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.2880.1800@192dpi" x="782" y="46" />
     <location key="com.intellij.ide.util.TipDialog.1440.0.1920.1080" x="377" y="293" />
     <location key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog.1440.0.1920.1080" x="2196" y="215" />
-    <location key="SettingsEditor.1440.0.1920.1080" x="1901" y="207" />
+    <location key="SettingsEditor.1440.0.1920.1080" x="1440" y="23" />
     <location key="deploy.picker.dialog.1440.0.1920.1080" x="2088" y="312" />
     <location key="IdeErrosDialog.1440.0.1920.1080" x="2017" y="284" />
     <location key="#com.intellij.ide.util.MemberChooser.1440.0.1920.1080" x="2168" y="273" />
@@ -41,15 +41,16 @@
     <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.2880.1800@192dpi" x="916" y="428" />
     <location key="ProcessPopupWindow.1440.0.1920.1080" x="2875" y="970" />
     <location key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog.0.0.2880.1800@192dpi" x="658" y="324" />
+    <location key="SettingsEditor.-281.-1080.1920.1080" x="-281" y="-1057" />
     <size key="GridCell.Tab.0.left.-185.-1080.1920.1080" width="1879" height="736" />
     <size key="GridCell.Tab.0.center.-185.-1080.1920.1080" width="1879" height="736" />
     <size key="GridCell.Tab.0.right.-185.-1080.1920.1080" width="1879" height="736" />
     <size key="GridCell.Tab.0.bottom.-185.-1080.1920.1080" width="1879" height="736" />
     <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.2880.1800@192dpi" width="2142" height="1374" />
-    <size key="GridCell.Tab.0.left.0.0.2880.1800@192dpi" width="2796" height="576" />
-    <size key="GridCell.Tab.0.center.0.0.2880.1800@192dpi" width="2796" height="576" />
-    <size key="GridCell.Tab.0.right.0.0.2880.1800@192dpi" width="2796" height="576" />
-    <size key="GridCell.Tab.0.bottom.0.0.2880.1800@192dpi" width="2796" height="576" />
+    <size key="GridCell.Tab.0.left.0.0.2880.1800@192dpi" width="2796" height="978" />
+    <size key="GridCell.Tab.0.center.0.0.2880.1800@192dpi" width="2796" height="978" />
+    <size key="GridCell.Tab.0.right.0.0.2880.1800@192dpi" width="2796" height="978" />
+    <size key="GridCell.Tab.0.bottom.0.0.2880.1800@192dpi" width="2796" height="978" />
     <size key="SettingsEditor.-185.-1080.1920.1080" width="1920" height="1057" />
     <size key="javadoc.popup.-185.-1080.1920.1080" width="444" height="168" />
     <size key="GridCell.Tab.1.left.-185.-1080.1920.1080" width="1878" height="360" />
@@ -73,5 +74,7 @@
     <size key="find.popup.0.0.2880.1800@192dpi" width="1972" height="1440" />
     <size key="ProcessPopupWindow.1440.0.1920.1080" width="400" height="108" />
     <size key="SettingsEditor.0.0.2880.1800@192dpi" width="2326" height="1396" />
+    <size key="SettingsEditor.1440.0.1920.1080" width="1920" height="1057" />
+    <size key="SettingsEditor.-281.-1080.1920.1080" width="1920" height="1057" />
   </component>
 </application>

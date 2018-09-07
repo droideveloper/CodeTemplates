@@ -2,14 +2,14 @@
   <component name="ToolbarClicksCollector">
     <counts>
       <entry action="Android Profiler@NavBarToolbar" count="1" />
-      <entry action="Android.RunAndroidAvdManager@NavBarToolbar" count="14" />
+      <entry action="Android.RunAndroidAvdManager@NavBarToolbar" count="15" />
       <entry action="Android.RunAndroidSdkManager@NavBarToolbar" count="1" />
-      <entry action="Android.SyncProject@NavBarToolbar" count="9" />
+      <entry action="Android.SyncProject@NavBarToolbar" count="11" />
       <entry action="AndroidConnectDebuggerAction@NavBarToolbar" count="3" />
       <entry action="Debug@NavBarToolbar" count="22" />
       <entry action="Rerun@DebuggerToolbar" count="2" />
       <entry action="Resume@DebuggerToolbar" count="62" />
-      <entry action="Run@NavBarToolbar" count="140" />
+      <entry action="Run@NavBarToolbar" count="143" />
       <entry action="Stop@DebuggerToolbar" count="1" />
       <entry action="Stop@NavBarToolbar" count="2" />
       <entry action="XDebugger.NewWatch@DebuggerToolbar" count="4" />
@@ -23,7 +23,7 @@
       <entry action="com.intellij.find.SearchTextArea$ClearAction@unknown" count="3" />
       <entry action="com.intellij.find.editorHeaderActions.NextOccurrenceAction@EditorToolbar" count="119" />
       <entry action="com.intellij.find.editorHeaderActions.PrevOccurrenceAction@EditorToolbar" count="6" />
-      <entry action="com.intellij.ide.fileTemplates.impl.AllFileTemplatesConfigurable$6@FileTemplatesConfigurable" count="10" />
+      <entry action="com.intellij.ide.fileTemplates.impl.AllFileTemplatesConfigurable$6@FileTemplatesConfigurable" count="25" />
       <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="20" />
       <entry action="org.jetbrains.plugins.terminal.TerminalView$CloseSession@Terminal" count="3" />
     </counts>
