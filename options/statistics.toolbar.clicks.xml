@@ -4,7 +4,7 @@
       <entry action="Android Profiler@NavBarToolbar" count="1" />
       <entry action="Android.RunAndroidAvdManager@NavBarToolbar" count="15" />
       <entry action="Android.RunAndroidSdkManager@NavBarToolbar" count="1" />
-      <entry action="Android.SyncProject@NavBarToolbar" count="11" />
+      <entry action="Android.SyncProject@NavBarToolbar" count="32" />
       <entry action="AndroidConnectDebuggerAction@NavBarToolbar" count="3" />
       <entry action="Debug@NavBarToolbar" count="22" />
       <entry action="Rerun@DebuggerToolbar" count="2" />

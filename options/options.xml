@@ -10,7 +10,7 @@
     <property name="lastTip" value="43" />
     <property name="build.toolwindow.Build.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="android-component-compatibility-check" value="1535958913924" />
-    <property name="file.gist.reindex.count" value="7207" />
+    <property name="file.gist.reindex.count" value="7784" />
     <property name="ExpandRunDashboardTypesPanel" value="false" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.LEFT" value="true" />
@@ -42,13 +42,13 @@
     <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.LEFT.UNSCALED.WIDTH" value="225" />
     <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.RIGHT.UNSCALED.WIDTH" value="251" />
     <property name="SearchEveryWhereHistory" value="keys" />
-    <property name="FileTemplates.SelectedTemplate" value="Singleton" />
-    <property name="kotlin.lastUpdateCheck" value="1536311118207" />
+    <property name="FileTemplates.SelectedTemplate" value="Kotlin_MVI_Model" />
+    <property name="kotlin.lastUpdateCheck" value="1536327082010" />
     <property name="fileTypeChangedCounter" value="1" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="LOG_FILTER_HISTORY" value="OkHttp&#10;Request&#10;curl&#10;c&#10;T" />
-    <property name="studio.activity.count" value="0" />
+    <property name="studio.activity.count" value="92" />
     <property name="ColorChooser.RecentColors" value="0-0-0-255" />
     <property name="JUnitSupport.hidePassedTests" value="false" />
     <property name="SAVED_PROJECT_KOTLIN_SUPPORT" value="true" />

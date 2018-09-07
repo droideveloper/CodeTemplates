@@ -45,6 +45,9 @@
     <location key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog.-281.-1080.1920.1080" x="452" y="-835" />
     <location key="find.popup.-281.-1080.1920.1080" x="341" y="-922" />
     <location key="#com.intellij.ide.util.MemberChooser.-281.-1080.1920.1080" x="447" y="-807" />
+    <location key="find.popup.1440.0.1920.1080" x="2062" y="158" />
+    <location key="#Project_Structure.1440.0.1920.1080" x="1990" y="208" />
+    <location key="AndroidCreateResourceFileDialog.1440.0.1920.1080" x="1988" y="312" />
     <size key="GridCell.Tab.0.left.-185.-1080.1920.1080" width="1879" height="736" />
     <size key="GridCell.Tab.0.center.-185.-1080.1920.1080" width="1879" height="736" />
     <size key="GridCell.Tab.0.right.-185.-1080.1920.1080" width="1879" height="736" />
@@ -80,5 +83,6 @@
     <size key="SettingsEditor.1440.0.1920.1080" width="1920" height="1057" />
     <size key="SettingsEditor.-281.-1080.1920.1080" width="1920" height="1057" />
     <size key="find.popup.-281.-1080.1920.1080" width="939" height="627" />
+    <size key="find.popup.1440.0.1920.1080" width="939" height="627" />
   </component>
 </application>
