@@ -1,9 +1,0 @@
-<application>
-  <component name="FileTypeManager" version="17">
-    <extensionMap>
-      <mapping pattern="listeners" type="JSON" />
-      <mapping ext="mp4" type="Native" />
-      <mapping pattern="ormlite_config" type="PLAIN_TEXT" />
-    </extensionMap>
-  </component>
-</application>

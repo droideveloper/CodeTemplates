@@ -3,3 +3,6 @@ tasks/*
 port
 port.*
 User.token
+.DS_Store
+options
+options/.*
