@@ -7,10 +7,10 @@ import android.support.v4.app.FragmentManager;
 import java.util.List;
 import org.fs.core.AbstractStatePagerAdapter;
 
-public class ${NAME} extends AbstractStatePagerAdapter<${TYPE_NAME}> 
-  implements PropertyChangedListener {
+@${SCOPE}
+public class ${NAME} extends AbstractStatePagerAdapter<${TYPE_NAME}> {
     
-  public ${NAME}(FragmentManager fragmentManager, ObservableList<${TYPE_NAME}> dataSet) {
+  @Inject public ${NAME}(FragmentManager fragmentManager, ObservableList<${TYPE_NAME}> dataSet) {
     super(fragmentManager, dataSet);
   }
   
@@ -22,19 +22,7 @@ public class ${NAME} extends AbstractStatePagerAdapter<${TYPE_NAME}>
     return BuildConfig.DEBUG;
   }
   
-  @Override protected Fragment onBind(int position, ${TYPE_NAME} element) {
+  @Override protected Fragment bind(int position, ${TYPE_NAME} element) {
     return null;//change this with creating new Fragment logic
-  }
-  
-  @Override public void notifyItemsRemoved(int index, int size) {
-    notifyDataSetChanged();
-  }
-  
-  @Override public void notifyItemsInserted(int index, int size) {
-    notifyDataSetChanged();
-  }
-  
-  @Override public void notifyItemsChanged(int index, int size) {
-    notifyDataSetChanged();
   }
 }

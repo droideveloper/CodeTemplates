@@ -1,0 +1,16 @@
+<application>
+  <component name="TemplateSettings">
+    <option name="deletedKeys">
+      <list>
+        <TemplateKey>
+          <option name="groupName" value="AndroidXML" />
+          <option name="key" value="appNs" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AndroidXML" />
+          <option name="key" value="toolsNs" />
+        </TemplateKey>
+      </list>
+    </option>
+  </component>
+</application>

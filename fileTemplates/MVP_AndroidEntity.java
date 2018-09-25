@@ -12,11 +12,11 @@ public final class ${NAME} extends AbstractEntity {
   }
   
   @Override protected void readParcel(Parcel input) {
-      //TODO read from Parcel
+    // TODO read from Parcel
   }
      
   @Override public void writeToParcel(Parcel out, int flags) {
-      //TODO write to Parcel
+    // TODO write to Parcel
   }
   
   @Override protected String getClassTag() {

@@ -5,8 +5,12 @@ import org.fs.core.AbstractViewHolder;
 import android.view.View;
 
 public class ${NAME} extends AbstractViewHolder<${DATA_TYPE}> {
+  
+  public ${NAME}(ViewGroup parent) {
+    this(LayoutInflater.from(parent.getContext()).inflater(${LAYOUT_RES}, parent, false));
+  }  
     
-  public ${NAME}(View view) {
+  private ${NAME}(View view) {
     super(view);
   }
       
@@ -14,9 +18,14 @@ public class ${NAME} extends AbstractViewHolder<${DATA_TYPE}> {
     return this.data;
   }
   
-  @Override public final void onBindView(${DATA_TYPE} data) {
-      //TODO bind data
+  @Override public void bind(${DATA_TYPE} entity) {
+    this.entity = entity
+    // TODO bind data
   }
+  
+  @Override public void unbind() {
+    // TODO unbind data
+  } 
   
   @Override protected String getClassTag() {
     return ${NAME}.class.getSimpleName();

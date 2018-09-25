@@ -43,6 +43,7 @@
         <option value="properties.index" />
         <option value="dom.elementClass" />
         <option value="dom.namespaceKey" />
+        <option value="org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex" />
         <option value="java.module.name" />
         <option value="java.class.fqn" />
         <option value="java.class.shortname" />

@@ -3,18 +3,27 @@
 
 import org.fs.common.AbstractPresenter;
 
+@${SCOPE}
 public class ${NAME}PresenterImp extends AbstractPresenter<${NAME}View> implements ${NAME}Presenter {
+  
+  private final CompositeDisposable disposeBag = new CompositeDisposable();
     
-  public ${NAME}PresenterImp(${NAME}View view) {
+  @Inject public ${NAME}PresenterImp(${NAME}View view) {
     super(view);
   }
   
+  @Override public void onCreate() {
+    if(view.isAvailable()) {
+      // TODO implement
+    }
+  } 
+  
   @Override public void onStart() {
-    //TODO implement
+    // TODO implement
   }
 
   @Override public void onStop() {
-    //TODO implement
+    disposeBag.clear();
   }
   
   @Override protected String getClassTag() {

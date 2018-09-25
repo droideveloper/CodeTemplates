@@ -1,127 +1,176 @@
 <application>
   <component name="ActionsCollector">
     <counts>
-      <entry action="$Copy" count="29" />
-      <entry action="$Cut" count="2" />
-      <entry action="$Delete" count="50" />
-      <entry action="$Paste" count="26" />
-      <entry action="$Redo" count="2" />
-      <entry action="$SelectAll" count="3" />
-      <entry action="$Undo" count="309" />
-      <entry action="ActivateStructureToolWindow" count="1" />
-      <entry action="Add Parcelable Implementation" count="1" />
-      <entry action="Add library to classpath" count="1" />
-      <entry action="Android Lint Quick Fixes" count="1" />
-      <entry action="Android Profiler" count="1" />
-      <entry action="Android.LinkExternalCppProject" count="2" />
-      <entry action="Android.RunAndroidAvdManager" count="15" />
-      <entry action="Android.RunAndroidSdkManager" count="1" />
-      <entry action="Android.SyncProject" count="38" />
-      <entry action="AndroidConnectDebuggerAction" count="3" />
-      <entry action="Back" count="5" />
-      <entry action="Change type" count="1" />
-      <entry action="CheckForUpdate" count="1" />
-      <entry action="CleanGradleProject" count="3" />
-      <entry action="CloseAllEditors" count="20" />
-      <entry action="CloseAllEditorsButActive" count="1" />
-      <entry action="CloseContent" count="21" />
-      <entry action="CodeCompletion" count="4" />
-      <entry action="CollapseBlock" count="1" />
-      <entry action="CompareClipboardWithSelection" count="1" />
-      <entry action="ConsoleView.ClearAll" count="9" />
-      <entry action="Convert to range check" count="1" />
-      <entry action="CopyPaths" count="1" />
+      <entry action="$Copy" count="65" />
+      <entry action="$Cut" count="6" />
+      <entry action="$Delete" count="150" />
+      <entry action="$Paste" count="272" />
+      <entry action="$Redo" count="1" />
+      <entry action="$SelectAll" count="2" />
+      <entry action="$Undo" count="1832" />
+      <entry action="ActivateLogcatToolWindow" count="2" />
+      <entry action="ActivateStructureToolWindow" count="10" />
+      <entry action="ActivateVersionControlToolWindow" count="3" />
+      <entry action="Add Parcelable Implementation" count="7" />
+      <entry action="Add braces" count="2" />
+      <entry action="Add constructor parameter" count="1" />
+      <entry action="Add else branch" count="1" />
+      <entry action="Add function body" count="1" />
+      <entry action="Add import for member" count="1" />
+      <entry action="Add labeled return to last expression in a lambda" count="1" />
+      <entry action="Add library to classpath" count="4" />
+      <entry action="Android Lint Quick Fixes" count="9" />
+      <entry action="Android.BuildApk" count="1" />
+      <entry action="Android.CreateSampleDataDirectory" count="2" />
+      <entry action="Android.GenerateSignedApk" count="3" />
+      <entry action="Android.RunAndroidAvdManager" count="70" />
+      <entry action="Android.RunAndroidSdkManager" count="6" />
+      <entry action="Android.SyncProject" count="34" />
+      <entry action="AndroidConnectDebuggerAction" count="134" />
+      <entry action="AndroidMigrateToAppCompatAction" count="1" />
+      <entry action="Back" count="1" />
+      <entry action="Change to constructor invocation" count="2" />
+      <entry action="Change to star projection" count="3" />
+      <entry action="CheckForUpdate" count="5" />
+      <entry action="CheckinProject" count="3" />
+      <entry action="CleanGradleProject" count="18" />
+      <entry action="Cleanup code" count="1" />
+      <entry action="CloseAllEditors" count="100" />
+      <entry action="CloseAllEditorsButActive" count="2" />
+      <entry action="CloseAllUnmodifiedEditors" count="1" />
+      <entry action="CloseContent" count="90" />
+      <entry action="Cluestick.SearchMenu" count="1" />
+      <entry action="CodeCleanup" count="1" />
+      <entry action="CodeCompletion" count="22" />
+      <entry action="CollapseDocComments" count="1" />
+      <entry action="CollapseRegion" count="1" />
+      <entry action="Compare.SameVersion" count="1" />
+      <entry action="ConsoleView.ClearAll" count="16" />
+      <entry action="Convert object literal to lambda" count="1" />
+      <entry action="Convert property initializer to getter" count="1" />
+      <entry action="CopyAsPlainText" count="1" />
       <entry action="CopyReference" count="4" />
-      <entry action="CopyUrl" count="2" />
-      <entry action="Debug" count="22" />
-      <entry action="DebugClass" count="3" />
-      <entry action="EditorBackSpace" count="30502" />
-      <entry action="EditorChooseLookupItem" count="7667" />
-      <entry action="EditorChooseLookupItemReplace" count="3" />
-      <entry action="EditorCopy" count="381" />
-      <entry action="EditorCut" count="39" />
-      <entry action="EditorDelete" count="635" />
-      <entry action="EditorDeleteLine" count="22" />
-      <entry action="EditorDown" count="6789" />
-      <entry action="EditorDownWithSelection" count="32" />
-      <entry action="EditorEnter" count="5269" />
-      <entry action="EditorEscape" count="50" />
-      <entry action="EditorIndentSelection" count="6" />
-      <entry action="EditorLeft" count="6034" />
-      <entry action="EditorLeftWithSelection" count="95" />
-      <entry action="EditorLineEnd" count="2" />
-      <entry action="EditorLineEndWithSelection" count="1" />
-      <entry action="EditorLineStart" count="1" />
-      <entry action="EditorPaste" count="531" />
-      <entry action="EditorPreviousWord" count="9" />
-      <entry action="EditorRight" count="6655" />
-      <entry action="EditorRightWithSelection" count="80" />
-      <entry action="EditorSplitLine" count="5" />
-      <entry action="EditorStartNewLine" count="2" />
-      <entry action="EditorTab" count="532" />
-      <entry action="EditorUnindentSelection" count="80" />
-      <entry action="EditorUp" count="2285" />
-      <entry action="EditorUpWithSelection" count="35" />
-      <entry action="Find" count="21" />
-      <entry action="FindInPath" count="2" />
-      <entry action="FindNext" count="1" />
-      <entry action="FindUsages" count="1" />
-      <entry action="GotoClass" count="3" />
-      <entry action="GotoDeclaration" count="607" />
-      <entry action="GotoFile" count="1" />
-      <entry action="GotoLine" count="1" />
-      <entry action="GotoNextError" count="4" />
-      <entry action="HideAllWindows" count="9" />
-      <entry action="Implement members" count="23" />
-      <entry action="Import" count="19" />
+      <entry action="CopyUrl" count="14" />
+      <entry action="Create constructor matching super" count="2" />
+      <entry action="Create from usage" count="4" />
+      <entry action="Debug" count="94" />
+      <entry action="EditSource" count="2" />
+      <entry action="EditorBackSpace" count="131538" />
+      <entry action="EditorChooseLookupItem" count="43109" />
+      <entry action="EditorChooseLookupItemReplace" count="79" />
+      <entry action="EditorCopy" count="1540" />
+      <entry action="EditorCut" count="386" />
+      <entry action="EditorDelete" count="4015" />
+      <entry action="EditorDeleteLine" count="3" />
+      <entry action="EditorDeleteToWordStart" count="27" />
+      <entry action="EditorDown" count="44735" />
+      <entry action="EditorDownWithSelection" count="190" />
+      <entry action="EditorEnter" count="27818" />
+      <entry action="EditorEscape" count="736" />
+      <entry action="EditorIndentSelection" count="28" />
+      <entry action="EditorLeft" count="27593" />
+      <entry action="EditorLeftWithSelection" count="1146" />
+      <entry action="EditorLineEnd" count="1" />
+      <entry action="EditorNextWord" count="1" />
+      <entry action="EditorPageDown" count="2" />
+      <entry action="EditorPageUp" count="3" />
+      <entry action="EditorPaste" count="2484" />
+      <entry action="EditorPasteSimple" count="1" />
+      <entry action="EditorPreviousWord" count="3" />
+      <entry action="EditorRight" count="30523" />
+      <entry action="EditorRightWithSelection" count="902" />
+      <entry action="EditorSplitLine" count="76" />
+      <entry action="EditorTab" count="2353" />
+      <entry action="EditorToggleColumnMode" count="1" />
+      <entry action="EditorUnSelectWord" count="6" />
+      <entry action="EditorUnindentSelection" count="539" />
+      <entry action="EditorUp" count="15662" />
+      <entry action="EditorUpWithSelection" count="140" />
+      <entry action="Find" count="69" />
+      <entry action="FindInPath" count="11" />
+      <entry action="FindUsages" count="9" />
+      <entry action="Flip  _ " count="1" />
+      <entry action="Generate" count="3" />
+      <entry action="GoogleLogin.LoginService" count="2" />
+      <entry action="GotoAction" count="2" />
+      <entry action="GotoDeclaration" count="1367" />
+      <entry action="HideAllWindows" count="26" />
+      <entry action="HippieCompletion" count="4" />
+      <entry action="Images.ShowThumbnails" count="1" />
+      <entry action="Implement members" count="96" />
+      <entry action="Implement methods" count="14" />
+      <entry action="Import" count="181" />
+      <entry action="Import class" count="2" />
       <entry action="ImportModule" count="3" />
-      <entry action="ImportProject" count="1" />
-      <entry action="InsertLiveTemplate" count="1" />
-      <entry action="Introduce  diff  as subject of  when " count="2" />
-      <entry action="Introduce local variable" count="1" />
-      <entry action="InvalidateCaches" count="5" />
-      <entry action="Kotlin.NewFile" count="210" />
-      <entry action="Lift assignment out of  if " count="1" />
-      <entry action="Make private" count="1" />
-      <entry action="MakeGradleProject" count="33" />
-      <entry action="Move lambda argument out of parentheses" count="2" />
-      <entry action="MoveStatementDown" count="1" />
-      <entry action="NewAndroidVectorAsset" count="2" />
-      <entry action="NewClass" count="3" />
-      <entry action="NewDir" count="77" />
-      <entry action="NewFile" count="4" />
-      <entry action="NewModuleInGroup" count="3" />
-      <entry action="NewProject" count="2" />
-      <entry action="NewScratchFile" count="1" />
-      <entry action="NextTemplateVariable" count="53" />
+      <entry action="ImportProject" count="2" />
+      <entry action="Introduce  c  as subject of  when " count="1" />
+      <entry action="Introduce  item  as subject of  when " count="1" />
+      <entry action="Introduce local variable" count="3" />
+      <entry action="InvalidateCaches" count="11" />
+      <entry action="Kotlin.NewFile" count="564" />
+      <entry action="Lift assignment out of  if " count="2" />
+      <entry action="Lift assignment out of  when " count="2" />
+      <entry action="Lift return out of  if " count="1" />
+      <entry action="Lift return out of  when " count="3" />
+      <entry action="Make internal" count="1" />
+      <entry action="MakeGradleModule" count="14" />
+      <entry action="MakeGradleProject" count="294" />
+      <entry action="MakeModule" count="2" />
+      <entry action="Move lambda argument out of parentheses" count="3" />
+      <entry action="NewAndroidImageAsset" count="19" />
+      <entry action="NewAndroidVectorAsset" count="31" />
+      <entry action="NewClass" count="22" />
+      <entry action="NewDir" count="199" />
+      <entry action="NewFile" count="8" />
+      <entry action="NewModuleInGroup" count="2" />
+      <entry action="NewProject" count="4" />
+      <entry action="NextTemplateVariable" count="442" />
       <entry action="OpenFile" count="5" />
-      <entry action="QuickImplementations" count="7" />
-      <entry action="RebuildGradleProject" count="2" />
-      <entry action="RefactoringMenuRenameFile" count="8" />
-      <entry action="ReformatCode" count="11" />
-      <entry action="RenameElement" count="66" />
-      <entry action="Replace  if  expression with safe access expression" count="2" />
+      <entry action="OpenModuleSettings" count="6" />
+      <entry action="OptimizeImports" count="3" />
+      <entry action="Parameter Name Hints" count="1" />
+      <entry action="PreviousTemplateVariable" count="3" />
+      <entry action="QuickImplementations" count="58" />
+      <entry action="RebuildGradleProject" count="8" />
+      <entry action="RecentChangedFiles" count="1" />
+      <entry action="RefactoringMenuRenameFile" count="7" />
+      <entry action="ReformatCode" count="15" />
+      <entry action="Remove braces" count="2" />
+      <entry action="Remove modifier" count="1" />
+      <entry action="Rename" count="1" />
+      <entry action="Rename Wrong Reference" count="1" />
+      <entry action="RenameElement" count="307" />
+      <entry action="Replace  if  expression with elvis expression" count="1" />
+      <entry action="Replace  if  expression with safe access expression" count="1" />
+      <entry action="Replace  if  with  when " count="14" />
+      <entry action="Replace  if  with elvis operator" count="1" />
+      <entry action="Replace with [...]" count="39" />
+      <entry action="Replace with array call" count="1" />
+      <entry action="Replace with equality check" count="3" />
+      <entry action="Replace with lambda" count="58" />
       <entry action="ReplaceInPath" count="1" />
-      <entry action="Rerun" count="2" />
-      <entry action="Resume" count="62" />
-      <entry action="RevealIn" count="5" />
-      <entry action="Run" count="143" />
-      <entry action="RunClass" count="1" />
-      <entry action="RunCoverage" count="1" />
-      <entry action="SaveAll" count="1" />
-      <entry action="SearchEverywhere" count="23" />
-      <entry action="ShowIntentionActions" count="148" />
-      <entry action="Simplify boolean expression" count="1" />
-      <entry action="SplitVertically" count="5" />
-      <entry action="Stop" count="3" />
-      <entry action="ToggleLineBreakpoint" count="43" />
-      <entry action="Unsplit" count="1" />
-      <entry action="UsageView.Exclude" count="15" />
+      <entry action="Resume" count="486" />
+      <entry action="RevealIn" count="12" />
+      <entry action="Run" count="1442" />
+      <entry action="RunInspection" count="1" />
+      <entry action="SafeDelete" count="1" />
+      <entry action="SaveAll" count="7" />
+      <entry action="SearchEverywhere" count="21" />
+      <entry action="ShowIntentionActions" count="944" />
+      <entry action="Stop" count="69" />
+      <entry action="Synchronize" count="1" />
+      <entry action="SynchronizeCurrentFile" count="2" />
+      <entry action="ToggleLineBreakpoint" count="354" />
       <entry action="Use property access syntax" count="1" />
       <entry action="Vcs.Push" count="1" />
-      <entry action="XDebugger.CopyValue" count="1" />
-      <entry action="XDebugger.NewWatch" count="4" />
-      <entry action="XDebugger.RemoveWatch" count="1" />
+      <entry action="Vcs.QuickListPopupAction" count="1" />
+      <entry action="Vcs.ShowTabbedFileHistory" count="1" />
+      <entry action="Vcs.UpdateProject" count="2" />
+      <entry action="ViewBreakpoints" count="1" />
+      <entry action="XDebugger.EditWatch" count="1" />
+      <entry action="XDebugger.NewWatch" count="42" />
+      <entry action="XDebugger.RemoveWatch" count="28" />
+      <entry action="template.create.ActivityBasic Activity" count="1" />
     </counts>
   </component>
 </application>

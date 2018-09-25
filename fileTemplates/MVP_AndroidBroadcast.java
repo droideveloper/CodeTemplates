@@ -6,15 +6,9 @@ import android.content.Intent;
 import android.content.Context;
 
 public class ${NAME} extends AbstractBroadcastReceiver<${NAME}Presenter> implements ${NAME}View {
-       
-  @Inject ${NAME}Presenter presenter;      
-       
+              
   public ${NAME}() {
     super();
-    DaggerBroadcastComponent.builder()
-      .broadcastModule(new BroadcastModule(this))
-      .build()
-      .inject(this);
   }
   
   @Override public void onReceive(Context context, Intent intent) {

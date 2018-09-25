@@ -1,19 +1,25 @@
 <application>
   <component name="MainMenuCollector">
     <counts>
-      <entry path="Build -&gt; Clean Project" count="3" />
-      <entry path="Build -&gt; Make Project" count="33" />
-      <entry path="Build -&gt; Rebuild Project" count="2" />
-      <entry path="Edit -&gt; Undo" count="6" />
-      <entry path="File -&gt; Invalidate Caches / Restart..." count="5" />
+      <entry path="Build -&gt; Build APK(s)" count="1" />
+      <entry path="Build -&gt; Clean Project" count="18" />
+      <entry path="Build -&gt; Generate Signed APK..." count="3" />
+      <entry path="Build -&gt; Make Module(s)" count="16" />
+      <entry path="Build -&gt; Make Project" count="294" />
+      <entry path="Build -&gt; Rebuild Project" count="8" />
+      <entry path="Edit -&gt; Find -&gt; Find in Path..." count="11" />
+      <entry path="Edit -&gt; Find -&gt; Find..." count="1" />
+      <entry path="Edit -&gt; Undo" count="1" />
+      <entry path="File -&gt; Invalidate Caches / Restart..." count="11" />
       <entry path="File -&gt; New -&gt; Import Module..." count="3" />
-      <entry path="File -&gt; New -&gt; Import Project..." count="1" />
-      <entry path="File -&gt; New -&gt; Module" count="1" />
-      <entry path="File -&gt; New -&gt; New Project..." count="2" />
+      <entry path="File -&gt; New -&gt; Import Project..." count="2" />
+      <entry path="File -&gt; New -&gt; New Project..." count="4" />
+      <entry path="File -&gt; Open Recent -&gt; Reopen Project" count="2" />
       <entry path="File -&gt; Open..." count="5" />
-      <entry path="File -&gt; Sync Project with Gradle Files" count="6" />
-      <entry path="Window -&gt; Editor Tabs -&gt; Split Vertically" count="5" />
-      <entry path="Window -&gt; Editor Tabs -&gt; Unsplit" count="1" />
+      <entry path="File -&gt; Sync Project with Gradle Files" count="34" />
+      <entry path="File -&gt; Sync with File System" count="1" />
+      <entry path="Run -&gt; Run" count="1" />
+      <entry path="VCS -&gt; Git -&gt; Push..." count="1" />
     </counts>
   </component>
 </application>

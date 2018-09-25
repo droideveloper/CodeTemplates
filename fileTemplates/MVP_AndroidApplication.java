@@ -3,9 +3,7 @@
 
 import ${PACKAGE_NAME}.BuildConfig;
 
-public class ${NAME} extends Application {
+public class ${NAME} extends DaggerApplication {
 
-  @Override public void onCreate() {
-    super.onCreate();
-  }
+  
 }

@@ -1,9 +1,9 @@
 #parse("File Package Header.java")
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 
-import dagger.Component;
+import dagger.Module;
 
-@Component
-public interface ${NAME} {
+@Module
+public abstract class ${NAME} {
 
 }

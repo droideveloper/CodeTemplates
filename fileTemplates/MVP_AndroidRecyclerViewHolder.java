@@ -6,21 +6,28 @@ import org.fs.core.AbstractRecyclerViewHolder;
 
 public class ${NAME} extends AbstractRecyclerViewHolder<${DATA}> {
 
-  private ${DATA} data;
+  public ${NAME}(ViewGroup parent) {
+    this(LayoutInflater.from(parent.getContext()).inflater(${LAYOUT_RES}, parent, false));
+  }
 
-  public ${NAME}(View view) {
+  private ${NAME}(View view) {
     super(view);
   }
 
+  @Override public final void bind(${DATA} entity) {
+    this.entity = entity;
+    // TODO bind data in view
+  }
+  
+  @Override public void unbind() {
+    // TODO unbind data
+  }
+  
   @Override protected String getClassTag() {
     return ${NAME}.class.getSimpleName();
   }
 
   @Override protected boolean isLogEnabled() {
     return BuildConfig.DEBUG;
-  }
-
-  @Override public final void onBindView(${DATA} data) {
-      //TODO bind data in view
   }
 }
