@@ -15,7 +15,5 @@
  * limitations under the License.
  */
 
-#if (${IMPORT_BLOCK} != "")${IMPORT_BLOCK}
-#end
-#if (${VISIBILITY} == "PUBLIC")public #end interface ${NAME} #if (${INTERFACES} != "")extends ${INTERFACES} #end {
+module #[[$MODULE_NAME$]]# {
 }

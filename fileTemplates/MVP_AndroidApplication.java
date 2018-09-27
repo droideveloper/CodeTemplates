@@ -1,9 +1,12 @@
 #parse("File Package Header.java")
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 
-import ${PACKAGE_NAME}.BuildConfig;
+import dagger.android.AndroidInjector;
+import dagger.android.support.DaggerApplication
 
 public class ${NAME} extends DaggerApplication {
 
-  
+  @Override protected AndroidInjector<? extends DaggerApplication> applicationInjector() {
+    return DaggerAppComponent.builder().create(this);
+  }
 }
