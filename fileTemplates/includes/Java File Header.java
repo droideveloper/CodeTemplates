@@ -1,6 +1,6 @@
-#parse("defs.java")
+#parse("java_defs.java")
 /*
- * ${MODULE_NAME} Copyright (C) ${YEAR} ${USER}.
+ * ${MODULE_NAME} Copyright (C) ${YEAR} ${USER}, ${COMPANY_NAME}.
  *  
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.

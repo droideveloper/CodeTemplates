@@ -1,4 +1,4 @@
-#parse("File Package Header.java")
+#parse("Kotlin File Header.kt")
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME} #end
 
 class ${NAME}: AbstractDialogFragment<${VIEW_MODEL}>(), ${NAME}View {

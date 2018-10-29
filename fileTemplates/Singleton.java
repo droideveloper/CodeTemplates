@@ -2,7 +2,7 @@
 
 #if (${IMPORT_BLOCK} != "")${IMPORT_BLOCK}
 #end
-#parse("File Header.java")
+#parse("Java File Header.java")
 #if (${VISIBILITY} == "PUBLIC")public #end class ${NAME} #if (${SUPERCLASS} != "")extends ${SUPERCLASS} #end #if (${INTERFACES} != "")implements ${INTERFACES} #end {
     private static final ${NAME} ourInstance = new ${NAME}();
 
