@@ -3,7 +3,7 @@
 
 class ${NAME}: ReducerIntent<${MODEL}>() {
   
-  override fun invoke(o: ${MODEL}): ${MODEL} {
+  override fun invoke(model: ${MODEL}): ${MODEL} {
     // TODO implement this
   }
 }
