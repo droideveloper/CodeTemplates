@@ -1,4 +1,4 @@
-#parse("kotlin_defs.kt")
+#parse("defs.java")
 /*
  * ${MODULE_NAME} Copyright (C) ${YEAR} ${USER}, ${COMPANY_NAME}.
  *  

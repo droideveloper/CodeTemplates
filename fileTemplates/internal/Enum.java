@@ -2,6 +2,6 @@
 
 #if (${IMPORT_BLOCK} != "")${IMPORT_BLOCK}
 #end
-#parse("Java File Header.java")
+#parse("File Header.java")
 #if (${VISIBILITY} == "PUBLIC")public #end enum ${NAME} #if (${INTERFACES} != "")implements ${INTERFACES} #end {
 }

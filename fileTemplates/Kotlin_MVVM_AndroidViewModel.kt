@@ -1,4 +1,4 @@
-#parse("Kotlin File Header.kt")
+#parse("File Package Header.java")
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME} #end
 
 class ${NAME}ViewModel @Inject constructor(view: ${NAME}View): AbstractViewModel<${NAME}View>(view) {

@@ -1,4 +1,4 @@
-#parse("Java File Header.java")
+#parse("defs.java")
 /*
  * ${MODULE_NAME} Copyright (C) ${YEAR} ${USER}.
  *  
