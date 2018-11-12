@@ -1,4 +1,4 @@
 #parse("File Package Header.java")
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME} #end
 
-data class ${NAME}Model(val data: ${DATA}, val state: SyncState = IDLE): Model 
+data class ${NAME}(override val state: SyncState, override val data: ${DATA}): Model<${DATA}>(state, data)

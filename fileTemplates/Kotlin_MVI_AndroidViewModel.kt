@@ -1,15 +1,13 @@
 #parse("File Package Header.java")
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME} #end
 
-class ${NAME}ViewModelImp(view: ${NAME}View): AbstractViewModel<${NAME}View>(view), ${NAME}ViewModel {
+@${SCOPE}
+class ${NAME} @Inject constructor(view: ${VIEW}): AbstractViewModel<${MODEL}, ${VIEW}>(view) {
   
-  override fun attach() {
-    if(view.isAvailable()) {
-      // TODO implement here
-    }
+  override fun initState(): ${MODEL} = throw NotImplementedError("not implemented")
+  
+  override fun toIntent(event: Event): Intent = when(event) {
+    else -> NothingIntent<${MODEL}>() // if we can not resolve event to intent
   }
   
-  override fun detach() {
-    // TODO implement here
-  }
 } 

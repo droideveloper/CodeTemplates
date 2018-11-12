@@ -1,9 +1,9 @@
 #parse("File Package Header.java")
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME} #end
 
-class ${NAME}: AbstractFragment<${VIEW_MODEL}>(), ${NAME}View {
+class ${NAME}: AbstractFragment<${MODEL}, ${VIEW_MODEL}>(), ${NAME}View {
   
-  override protected val layoutRest: Int get() = 0
+  override val layoutRest: Int get() = 0
   
   override fun setUp(state: Bundle?) {
     // TODO implement this
@@ -13,7 +13,7 @@ class ${NAME}: AbstractFragment<${VIEW_MODEL}>(), ${NAME}View {
     // TODO implement this
   }
   
-  override fun detach() {
+  override fun render(model: ${MODEL}) {
     // TODO implement this
   }
 }

@@ -1,9 +1,9 @@
 #parse("File Package Header.java")
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME} #end
 
-class ${NAME}: AbstractDialogFragment<${VIEW_MODEL}>(), ${NAME}View {
+class ${NAME}: AbstractDialogFragment<${MODEL}, ${VIEW_MODEL}>(), ${NAME}View {
   
-  override protected val layoutRes: Int get() = 0
+  override val layoutRes: Int get() = 0
   
   init {
     setStyle(STYLE_NO_TITLE, theme)
@@ -17,7 +17,7 @@ class ${NAME}: AbstractDialogFragment<${VIEW_MODEL}>(), ${NAME}View {
     // TODO implement this
   }
   
-  override fun detach() {
+  override fun render(model: ${MODEL}) {
     // TODO implement this
   }
 }
